@@ -1,0 +1,7 @@
+.section-feed {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 35px;
+    border-radius: 8px;
+}
