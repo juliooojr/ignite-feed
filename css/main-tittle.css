@@ -4,3 +4,20 @@
     font-weight: 700;
     line-height: 25px;
 }
+
+.main-tittle.-pageTittle {
+    color: #E1E1E6;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.main-tittle.-feed {
+    color: #C4C4CC;
+    font-weight: 400;
+}
+
+.main-tittle.-feedHighlight {
+    color: #00B37E;
+    font-weight: 700;
+}

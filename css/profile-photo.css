@@ -1,0 +1,13 @@
+.profile-photo {
+    background-color: #202024;
+    border: 1px solid #00B37E;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    top: 15%;
+}
+
+.profile-photo.-relative {
+    position: relative;
+    top: 0;
+}

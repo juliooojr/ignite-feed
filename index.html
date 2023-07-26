@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ignite Feed</title>
+
+    <link rel="icon" type="image/x-icon" href="img/Ignite-simbolSuffix.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,10 +15,13 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-header.css">
     <link rel="stylesheet" href="css/section-feed.css">
     <link rel="stylesheet" href="css/main-profile.css">
+    <link rel="stylesheet" href="css/profile-photo.css">
     <link rel="stylesheet" href="css/main-feed.css">
     <link rel="stylesheet" href="css/main-tittle.css">
+    <link rel="stylesheet" href="css/main-subtittle.css">
     <link rel="stylesheet" href="css/button-editProfile.css">
 
 
@@ -23,33 +29,64 @@
 
 <body>
 
-    <header>
-        <nav class="header">
-            <img src="img/Ignite simbolSuffix.svg" alt="">
-            <h1>Ignite Feed</h1>
-        </nav>
+    <header class="main-header">
+        <img src="img/Ignite simbolSuffix.svg" lang="en" alt="Ignite Logo">
+        <h1 class="main-tittle -pageTittle">Ignite Feed</h1>
     </header>
-
 
     <div class="section-feed">
 
         <div class="main-profile">
 
-            <img class="background-profile" src="img/Rectangle 4240.png" alt="">
-            <img src="img/Rectangle 4234 (1).png" alt="">
-            <h1 class="main-tittle">Leslie Alexander</h1>
-            <p>UI Designer</p>
-            <div class="button-editProfile" >
-                <img src="img/Frame.svg" alt="">
-                <button type="button">Editar seu Perfil</button>
+            <img class="background-profile" src="img/Rectangle 4240.png" alt="Imagem de fundo">
+            <img class="profile-photo" src="img/Rectangle 4234.png" alt="Foto de perfil do usuário Leslie Alexander">
+            <div class="user-info">
+                <h1 class="main-tittle">Leslie Alexander</h1>
+                <span class="main-subtittle">UI Designer</span>
             </div>
+            <a class="button-editProfile">
+                <img src="img/Frame.svg" alt="Ícone de edição">
+                <span>Editar seu Perfil</span>
+            </a>
+
         </div>
 
         <div class="main-feed">
-            <p>TEXT</p>
+
+            <div class="headerPost">
+                <div class="user-info-post">
+                    <img class="profile-photo -relative" src="img/Rectangle 4234 (1).png" alt="Foto de perfil do usário Jane Cooper">
+                    <div>
+                        <h1 class="main-tittle">Jane Cooper</h1>
+                        <span class="main-subtittle">Dev Front-End</span>
+                    </div>
+                </div>
+
+                <span class="main-subtittle">Publicado há 1h</span>
+            </div>
+
+            <div class="content">
+                <span class="main-tittle -feed">Fala Galeraa &#128075</span>
+
+                <span class="main-tittle -feed">Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare</span>
+
+                <span class="main-tittle -feedHighlight">&#128073jane.design/doctorcare</span>
+
+                <span class="main-tittle -feedHighlight">&#128640#novoprojeto #nlw #rocketseat</span>
+            </div>
+
+            <div class="form">
+                <span class="main-tittle">Deixe seu Feedback</span>
+
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <button type="submit">Publicar</button>
+            </div>
+
         </div>
     </div>
-     
-    
+
+
 </body>
+
 </html>
