@@ -1,0 +1,24 @@
+.user-comments {
+    position: relative;
+    display: flex;
+    background-color: pink;
+    margin-top: 32px;
+}
+
+.grid {
+
+}
+
+.grid img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border-radius: 8px
+}
+
+.thread {
+    background-color: #29292E;
+    border-radius: 9px;
+}

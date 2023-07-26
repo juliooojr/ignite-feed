@@ -1,0 +1,8 @@
+.posts-group {
+    background-color: #121414;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 57%;
+    gap: 32px;
+}
